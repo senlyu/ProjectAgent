@@ -1,0 +1,16 @@
+h1{
+	font-family: 'Roboto Slab', serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+	padding-left: 10%;
+	box-shadow: 0px 5px 5px grey;
+}
+
+body{
+	font-family: 'Roboto Slab', serif;
+}
+
+mark{
+	background-color: #c5c5c5!important;
+}

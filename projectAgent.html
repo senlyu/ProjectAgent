@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="page1.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <title>Agent Analysis Tool 1.0</title>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <h1>Agent Analysis Tool 1.0</h1>
+      <i class="material-icons" id="headIcon">find_in_page</i>
+    </div>
+
+    <div class="container">
+
+      <form action="http://senlyu.com/project1/test.php" method="post" id="postform">
+        <hr class="mb-4">
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="Age">Age</label>
+            <input type="number" class="form-control" name="Age" value=44>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="LOS (Completed Years)">LOS (Completed Years)</label>
+            <input type="number" class="form-control" name="LOS (Completed Years)" value=1>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="Premiums - Total">Premiums - Total</label>
+            <input type="number" class="form-control" name="Premiums - Total" value=32976>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="Compensation - Total Earnings">Compensation - Total Earnings</label>
+            <input type="number" class="form-control" name="Compensation - Total Earnings" value=18907>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="New Policies - Total">New Policies - Total</label>
+            <input type="number" class="form-control" name="New Policies - Total" value=24>
+          </div>
+          <div class="form-group col-md-6">
+            <label for="FYCs - Total">FYCs - Total</label>
+            <input type="number" class="form-control" name="FYCs - Total" value=15537>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <div>Agent Has Sales Mgt Responsibilities</div>
+            <select name="Agent Has Sales Mgt Responsibilities" class="form-control">
+              <option value="NO">No</option>
+              <option value="unknown">Unknown</option>
+              <option value="YES">Yes</option>
+            </select>
+          </div>
+          <div class="form-group col-md-6">
+            <div>Agent Received New-agent Financing During the Year</div>
+            <select name="Agent Received New-agent Financing During the Year" class="form-control">
+              <option value="YES">Yes</option>
+              <option value="unknown">Unknown</option>
+              <option value="NO">No</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <div>License - Series 23 24 26 Securities</div>
+            <select name="License - Series 23 24 26 Securities" class="form-control">
+              <option value="No">No</option>
+              <option value="Yes">Yes</option>
+              <option value="unknown">Unknown</option>
+            </select>
+          </div>
+          <div class="form-group col-md-6">
+            <div>License - Series 6 Securities</div>
+            <select name="License - Series 6 Securities" class="form-control" form="postform">
+              <option value="Yes">Yes</option>
+              <option value="unknown">Unknown</option>
+              <option value="No">No</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <div>License - Series 63 65 66 Securities</div>
+            <select name="License - Series 63 65 66 Securities" class="form-control" form="postform">
+              <option value="No">No</option>
+              <option value="Yes">Yes</option>
+              <option value="unknown">Unknown</option>
+            </select>
+          </div>
+          <div class="form-group col-md-6">
+            <div>License - Series 7 Securities</div>
+            <select name="License - Series 7 Securities" class="form-control" form="postform">
+              <option value="No">No</option>
+              <option value="Yes">Yes</option>
+              <option value="unknown">Unknown</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <div>Record Type</div>
+            <select name="Record Type" class="form-control" form="postform">
+              <option value="Active Agent">Active Agent</option>
+              <option value="unknown">Unknown</option>
+              <option value="New Hire">New Hire</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <div>Record Year</div>
+            <select name="Record Year" class="form-control" form="postform">
+              <option value="2010">2010</option>
+              <option value="2011">2011</option>
+              <option value="2012">2012</option>
+              <option value="2013">2013</option>
+              <option value="2014">2014</option>
+              <option value="2015">2015</option>
+              <option value="2016">2016</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <div>Prior Insurance Sales Experience</div>
+            <select name="Prior Insurance Sales Experience" class="form-control" form="postform">
+              <option value="No Insurance Sales Exp">No Insurance Sales Exp</option>
+              <option value="unknown">Unknown</option>
+              <option value="Prior Insurance Sales Exp">Prior Insurance Sales Exp</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group col-md-4">
+            <div>Gender</div>
+            <select name="Gender" class="form-control" form="postform">
+              <option value="Male">Male</option>
+              <option value="Female">Femal</option>
+              <option value="unknown">unknown</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <div>Company - Code</div>
+            <select name="Company - Code" class="form-control" form="postform">
+              <option value="A01">A01</option>
+              <option value="A02">A02</option>
+              <option value="A03">A03</option>
+              <option value="A04">A04</option>
+              <option value="A05">A05</option>
+              <option value="A06">A06</option>
+              <option value="A07">A07</option>
+              <option value="A08">A08</option>
+              <option value="B01">B01</option>
+              <option value="B02">B02</option>
+              <option value="B04">B04</option>
+              <option value="B05">B05</option>
+              <option value="B06">B06</option>
+              <option value="B07">B07</option>
+              <option value="B08">B08</option>
+              <option value="B09">B09</option>
+              <option value="B10">B10</option>
+              <option value="B11">B11</option>
+              <option value="B12">B12</option>
+              <option value="B13">B13</option>
+              <option value="B14">B14</option>
+              <option value="B15">B15</option>
+              <option value="B16">B16</option>
+              <option value="B17">B17</option>
+            </select>
+          </div>
+          <div class="form-group col-md-4">
+            <div>State Name</div>
+            <select name="State Name" class="form-control" form="postform">
+              <option value="Alabama">Alabama</option>
+              <option value="Alaska">Alaska</option>
+              <option value="Arizona">Arizona</option>
+              <option value="Arkansas">Arkansas</option>
+              <option value="California">California</option>
+              <option value="Colorado">Colorado</option>
+              <option value="Connecticut">Connecticut</option>
+              <option value="Delaware">Delaware</option>
+              <option value="Florida">Florida</option>
+              <option value="Georgia">Georgia</option>
+              <option value="Hawaii">Hawaii</option>
+              <option value="Idaho">Idaho</option>
+              <option value="Illinois">Illinois</option>
+              <option value="Indiana">Indiana</option>
+              <option value="Iowa">Iowa</option>
+              <option value="Kansas">Kansas</option>
+              <option value="Kentucky">Kentucky</option>
+              <option value="Louisiana">Louisiana</option>
+              <option value="Maine">Maine</option>
+              <option value="Maryland">Maryland</option>
+              <option value="Massachusetts">Massachusetts</option>
+              <option value="Michigan">Michigan</option>
+              <option value="Minnesota">Minnesota</option>
+              <option value="Mississippi">Mississippi</option>
+              <option value="Missouri">Missouri</option>
+              <option value="Montana">Montana</option>
+              <option value="Nebraska">Nebraska</option>
+              <option value="Nevada">Nevada</option>
+              <option value="New Hampshire">New Hampshire</option>
+              <option value="New Jersey">New Jersey</option>
+              <option value="New Mexico">New Mexico</option>
+              <option value="New York">New York</option>
+              <option value="North Carolina">North Carolina</option>
+              <option value="North Dakota">North Dakota</option>
+              <option value="Ohio">Ohio</option>
+              <option value="Oklahoma">Oklahoma</option>
+              <option value="Oregon">Oregon</option>
+              <option value="Pennsylvania">Pennsylvania</option>
+              <option value="Rhode Island">Rhode Island</option>
+              <option value="South Carolina">South Carolina</option>
+              <option value="South Dakota">South Dakota</option>
+              <option value="Tennessee">Tennessee</option>
+              <option value="Texas">Texas</option>
+              <option value="Utah">Utah</option>
+              <option value="Vermont">Vermont</option>
+              <option value="Virginia">Virginia</option>
+              <option value="Washington">Washington</option>
+              <option value="West Virginia">West Virginia</option>
+              <option value="Wisconsin">Wisconsin</option>
+              <option value="Wyoming">Wyoming</option>
+            </select>
+          </div>
+        </div>
+
+        <hr class="mb-4">
+        <div class="form-row">
+          <div class="form-group col-md-12">
+            <button type="submit" class="btn btn-primary">Analysis</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+  <div id="clicked-state"></div>
+  <script>
+    var statefullname = 'Connecticut';
+    var stateshortname = abbrState(statefullname, 'abbr');
+    
+    $('#map').usmap({
+      stateStyles: {fill: 'green'}
+    });
+    //console.log($('#map')['stateSpecificStyles']);
+    //$('#map')['stateSpecificStyles'][stateshortname]['fill'] = 'yellow';
+
