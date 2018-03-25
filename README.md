@@ -1,5 +1,5 @@
 # ProjectAgent
-Capstone Project
+## Capstone Project
 
 This is a capstone project for my master degree, and it is sponsored by LIMRA.
 
@@ -12,9 +12,10 @@ senlyu.com/projectAgent.html
 
 # Project Stucture
 Page1.html: a form post to page2.php
+
 Page2.php: call main.py to run the model results and use the results to show in the page.
 
-Used js: 
+## Used js: 
 
 1. charts.js(for make the radar chart and pie chart)
 
